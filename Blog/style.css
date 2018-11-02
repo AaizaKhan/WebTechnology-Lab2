@@ -1,0 +1,170 @@
+body{
+	margin: 0px;
+}
+.header
+{
+	width:100%;
+	height:auto;
+	background-color:#000000; 
+	
+}
+
+#logo
+{   display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 145px;
+}
+
+.main{
+	width: 54%;
+	height: 869px;
+	border: 2px solid red;
+	float: left;
+	margin-left: 160px;
+}
+.div1{
+	width: 150px;
+	height: 215px;
+	border:1px solid black;
+	background-color: #c10b0be6;
+	float: left;
+	margin-left: 68px;
+}
+.mainheader{
+	text-align: center;
+    background-color: #721D16;
+    color: white;
+}
+.ep1header{
+	font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.p1{
+	text-align: center;
+    font-size: 19px;
+    border: 1px solid red;
+    background-color: #7C0000;
+    color: white;
+    margin-top: -14px;
+}
+.anker{
+	text-decoration: none;
+}
+.div2{
+	width: 150px;
+	height: 215px;
+	border:1px solid black;
+	background-color: #c10b0be6;
+	float: left;
+	margin-left: 40px;
+}
+.div3{
+	width: 150px;
+	height: 215px;
+	border:1px solid black;
+	background-color: #c10b0be6;
+	float: left;
+	margin-left: 40px;
+	margin-right: 65px
+}
+.mainb{
+	width: 32.7%;
+    height: 869px;
+    border: 2px solid red;
+    float: left;
+    /*margin-left: 5px;*/
+}
+.proheader{
+	text-align: center;
+    padding-top: 10px;
+}
+.proheader2{
+	text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.footer {
+   position: fixed;
+   bottom:0;
+   width:100%;
+   height:90px;   /* Height of the footer */
+   background:#000000;
+}
+
+.footer h2
+{
+color:#fff;
+font-size:20px;
+margin:22px 0 0 0;
+float:left;
+}
+
+.footer p{
+color:red;
+padding-top:55px; 
+
+}
+.footer marquee
+{
+width:585px;
+height:42px;
+background-image:url(images/shadow.png);
+background-repeat:no-repeat;
+background-position:center right;
+float:left;
+padding:25px 25px 0 0;
+margin-top:0px;
+}
+.footer marquee span
+{
+color:red;
+font-size:17px;
+margin-top:0px;
+font-family:arial;
+background-image:url(images/icon_0.png);
+background-repeat:no-repeat;
+background-position:center left;
+padding-left:20px;
+padding-right:25px;
+}
+.social
+{
+width:200px;
+height:46px;
+float:right;
+margin:30px 6px 0 0;
+}
+.social ul
+{
+margin:0;
+padding:0;
+}
+.social ul li
+{
+list-style-type:none;
+float:left;
+}
